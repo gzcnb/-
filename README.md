@@ -2,6 +2,26 @@
 
 这个项目为世界技能大赛第48届的自主移动机器人赛项开发的可视化地图软件路线的路径规划使用，由python开发出来的前端软件，通过生成点位文件.csv格式文件，放在树莓派在通过c++读取文件地图信息，通过最短路径算法，给出一条路径的全局坐标点位信息，给到坐标使用。
 
+#### 安装：
+
+程序包下载到本地，一键下载依赖项（推荐在win系统下使用虚拟python环境）
+
+```
+pip install -r requirements.txt
+```
+
+#### 使用pyinstaller打包成软件（可选）
+
+```
+python -m pip install -U pyinstaller
+```
+
+打包：
+
+```
+pyinstaller -w -F -i image/favicon.ico APP.py
+```
+
 
 
 ## 画图程序教程
