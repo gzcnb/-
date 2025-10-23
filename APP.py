@@ -214,7 +214,7 @@ def read_and_visualize_dxf(file_path):
 
         # 创建绘图对象
         fig, ax = plt.subplots(figsize=(7, 6))
-        ax.set_title("交互式DXF地图 | 作者：Azitide 甘梓成 | 老师：庞春 | 版本：2025-7-02",fontsize=10)
+        ax.set_title("交互式DXF地图 | 作者：Azitide | 版本：2025-7-02",fontsize=10)
         ax.set_aspect("equal")
 
         global key_press_cid
