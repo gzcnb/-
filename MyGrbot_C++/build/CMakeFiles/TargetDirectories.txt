@@ -1,0 +1,3 @@
+/home/getcrobot/MyGrbot/build/CMakeFiles/MyApp.dir
+/home/getcrobot/MyGrbot/build/CMakeFiles/edit_cache.dir
+/home/getcrobot/MyGrbot/build/CMakeFiles/rebuild_cache.dir

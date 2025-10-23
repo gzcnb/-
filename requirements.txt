@@ -1,0 +1,11 @@
+# 图形/计算
+ezdxf==1.1.0
+matplotlib==3.7.2
+shapely==2.0.2
+numpy==1.24.3
+
+# 动画交互（matplotlib 已带 FuncAnimation，但额外装 pillow 可导出 gif/mp4）
+pillow==10.1.0
+
+# 可选：加速解析
+lxml==4.9.3          # ezdxf 底层解析 DXF 时优先用 lxml，比标准库 xml 快
