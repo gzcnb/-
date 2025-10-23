@@ -113,7 +113,9 @@
   ├─ lib
   │  └─ libGrbot.so               //grbot.hpp的实现动态库
   ├─ include 
-  │  └─ grbot.hpp                 //接口头文件
+  │  ├─ grbot.hpp                 //接口头文件
+  │  ├─ csv_grbot.hpp             //csv生成地图信息存入缓存
+  │  └─ grbot_ptah.hpp            //通过地图信息算出点对点的路径二维坐标容器
   ├─ data
   │  └─ points_data.csv           //数据文件::: 画图程序生成数据文件放在这个地方
   ├─ build
